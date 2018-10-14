@@ -36,7 +36,7 @@ Tunning:
 // Joystick 
 #define joy_speed_left A0       //input main speed-left (front and back)
 #define joy_speed_right A1      //input main speed-right (front and back)
-
+//A0 belum konek
 #define joy_steer_left A2       //input main steer-left (front and back)
 #define joy_steer_right A3      //input main steer-right (front and back)
 
@@ -74,6 +74,8 @@ const int switch_steer1 = 30;  //front left
 const int switch_steer2 = 31;  //back left
 const int switch_steer3 = 32;  //front right
 const int switch_steer4 = 33;  //back right
+
+//Button belum ada yg disambungin
 
 // Initialize State Switch
 int state_nn = 0;             //state nn
